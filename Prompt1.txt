@@ -1,0 +1,63 @@
+Créer une application web CRUD complète de gestion des clients en PHP natif (procédural, sans framework), avec HTML + CSS, et stockage des données dans un fichier SQLite nommé database.sqlite situé à la racine du projet.
+
+Fonctionnalités obligatoires :
+
+Ajouter, afficher, modifier et supprimer des clients
+
+Champs client : nom, prénom, email, téléphone, ville, image de profil
+
+Upload d’image de profil avec stockage dans un dossier uploads/ et renommage automatique
+
+Validation côté serveur (champs requis, email valide)
+
+Affichage de l’image de profil dans la liste des clients
+
+Technologies et contraintes :
+
+PHP 8+ (procédural)
+
+PDO avec SQLite
+
+Création automatique du fichier database.sqlite s’il n’existe pas
+
+Création automatique de la table clients
+
+Requêtes préparées obligatoires
+
+Aucune librairie externe
+
+Code clair, commenté et pédagogique
+
+Structure du projet attendue :
+
+client-crud-sqlite/
+├── index.php
+├── create.php
+├── edit.php
+├── delete.php
+├── db.php        (connexion SQLite + création table)
+├── style.css
+├── uploads/
+└── database.sqlite
+
+
+Base de données :
+
+clients(
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  nom TEXT NOT NULL,
+  prenom TEXT NOT NULL,
+  email TEXT NOT NULL,
+  tel TEXT,
+  ville TEXT,
+  image TEXT
+)
+
+
+Serveur de développement local :
+
+php -S localhost:8000
+
+
+Instruction importante :
+Générer chaque fichier séparément, avec le nom du fichier en commentaire, le code complet, et des commentaires explicatifs.

@@ -1,0 +1,29 @@
+Améliore uniquement l’interface utilisateur (HTML + CSS) du formulaire
+d’ajout de client dans ce fichier create.php, sans modifier la logique PHP
+(validation, upload image, SQL).
+
+Objectifs UI / UX :
+- Formulaire moderne type dashboard admin
+- Responsive (desktop, tablette, mobile)
+- Mise en page en deux colonnes sur desktop, une colonne sur mobile
+- Hiérarchie visuelle claire : titre, sections, actions
+- Labels lisibles + champs bien espacés
+- Inputs modernes avec focus visible
+- Bouton principal “Ajouter le client” bien mis en valeur
+- Bouton “Annuler” secondaire (retour à index.php)
+- Messages d’erreur/succès stylés (alert box)
+- Champ upload image moderne (zone drag & drop simulée en CSS)
+- Placeholder avatar avant upload
+
+Contraintes :
+- CSS pur uniquement (pas Bootstrap, pas Tailwind, pas JS externe)
+- Styles centralisés dans style.css
+- Ne pas modifier la logique PHP ni les noms des champs
+- Code clair, structuré et commenté
+- Accessibilité : contrastes, focus, labels associés
+
+Bonus UX :
+- Indication visuelle des champs obligatoires (*)
+- Icône ou badge “Nouveau client”
+- Animation douce (hover, focus, transition)
+- Cohérence graphique avec edit.php et index.php

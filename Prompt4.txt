@@ -1,0 +1,37 @@
+Ajouter une interface de login (authentification) en PHP
+avec email/login et mot de passe, intégrée à cette application CRUD existante.
+
+Objectifs fonctionnels :
+- Page login.php avec formulaire (email/login + mot de passe)
+- Authentification sécurisée avec mot de passe hashé (password_hash / password_verify)
+- Table users (id, email, password, created_at)
+- Gestion de session PHP (session_start)
+- Redirection vers index.php après connexion réussie
+- Message d’erreur clair en cas d’échec
+- Protection des pages (index.php, create.php, edit.php, delete.php)
+- Bouton logout.php pour déconnexion
+
+Objectifs UI / UX :
+- Interface moderne type admin dashboard
+- Formulaire centré, responsive
+- Champs stylés avec focus visible
+- Bouton “Se connecter” principal
+- Messages d’erreur élégants
+- Même charte graphique que index/edit/create
+- Typographie moderne (system font)
+- Carte de login avec ombre douce
+
+Contraintes :
+- PHP natif (pas de framework)
+- CSS pur dans style.css
+- Pas de JavaScript externe
+- SQLite compatible
+- Code clair, commenté et pédagogique
+- Ne pas casser le CRUD existant
+
+Bonus sécurité :
+- Utiliser prepared statements
+- Vérifier session avant affichage des pages
+- Regénération de session après login
+- Protection basique contre accès direct non authentifié
+✅ Conseil d’utilisation

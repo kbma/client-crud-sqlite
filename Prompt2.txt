@@ -1,0 +1,26 @@
+Améliore uniquement l’interface (HTML + CSS) de ce fichier index.php,
+sans modifier la logique PHP ni les requêtes SQL.
+
+Objectifs :
+- Design moderne et professionnel (dashboard CRUD)
+- Responsive (desktop, tablette, mobile)
+- Table moderne avec cartes empilées sur mobile
+- Avatar circulaire avec ombre douce
+- Boutons modernes (hover, icônes si possible en CSS pur)
+- Messages d’alerte stylés (succès / erreur)
+- Actions (Modifier / Supprimer) bien visibles
+- Typographie moderne (system font ou Google Font)
+- Utiliser Flexbox et Grid
+- Ajouter une barre d’en-tête avec titre + bouton "Ajouter un client"
+- Améliorer l’accessibilité (contrastes, tailles, aria si pertinent)
+
+Contraintes :
+- Pas de framework (pas Bootstrap, pas Tailwind)
+- CSS pur dans style.css
+- Garder la structure PHP existante
+- Code propre, lisible et commenté
+- Compatibilité navigateur moderne
+
+Bonus :
+- Mode mobile : remplacer la table par des cards
+- Effet léger d’animation (hover, transition)
