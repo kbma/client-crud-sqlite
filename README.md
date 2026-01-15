@@ -62,6 +62,7 @@ Libre d'utilisation pour projets personnels et commerciaux.
 ## 💎 Bonus
 
 🔥 Projet utilisé dans ma formation YouTube  : https://www.youtube.com/watch?v=_7AkkcPrDUI&list=PL3eyDP819Nzq9mBxnRp43gWc4OpDuwIqm
+
 📌 Série complète disponible sur ma chaîne  
 🚀 D'autres projets arrivent bientôt  
 
